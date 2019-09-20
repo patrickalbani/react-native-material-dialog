@@ -110,12 +110,6 @@ const MaterialDialog = ({
                       onPress={onOk}
                       label={okLabel}
                     />
-                    <ActionButton
-                      testID="dialog-ok-button"
-                      colorAccent={colorAccent}
-                      onPress={onOk}
-                      label={okLabel}
-                    />
                   </View>
                 ) : null}
               </View>
